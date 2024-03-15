@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://i.insider.com/64ee495b96b7920019c9dac5?width=1200&format=jpeg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.holiday-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.holiday-item-image {
+    border-radius: 16px;
+    width: 80px;
+    height: 150px;
+}
+
+.holiday-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.holiday-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.holiday-item-card {
+    border-radius: 16px;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+}
+
+.form-control {
+    border-radius: 10px;
+    border-color: yellow;
+
+}
+
+.holiday-item-card-2 {
+    border-radius: 16px;
+    width: 300px;
+    height: 350px;
+    overflow: auto;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>Gogaga Holidays </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#HolidayPackageSection">
+                        Holiday Packages
+
+                    </a>
+                    <a class="nav-link" href="#FlightBookingSection" id="navItem2">Flight Booking</a>
+                    <a class="nav-link" href="#HotelBookingSection" id="navItem3">Hotel Booking</a>
+                    <a class="nav-link" href="#PackageCollectionSection" id="navItem4">Package Collection</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Dream, Explore, Discover: Begin Your Next Chapter with Gogaga Holidays</h1>
+        </div>
+    </div>
+    <div class="holiday-package-section pt-5 pb-5 d-flex justify-content-center" id="HolidayPackageSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="holiday-section-heading">Holiday Package</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow holiday-item-card p-3 mb-3">
+                        <img src="https://w0.peakpx.com/wallpaper/331/375/HD-wallpaper-kerala-backwater-sunset-india-shore-boat-nature-sunset-reflection-trees-sky-sea.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Kerala</h1>
+                        <p>Starting at Rs 38,000 Per Person</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow holiday-item-card p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-sand-with-coconut-palm-tree-blue-sky-white-cloud_74190-7479.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Goa</h1>
+                        <p>Starting at Rs 58,000 Per Person</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holiday-item-card shadow p-3 mb-3">
+                        <img src="https://e0.pxfuel.com/wallpapers/227/224/desktop-wallpaper-best-jammu-and-kashmir-%C2%B7-100-%C2%B7-stock-jammu-kashmir.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Kashmir</h1>
+                        <p>Starting at Rs 40,000 Per Person</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holiday-item-card shadow p-3 mb-3">
+                        <img src="data:image/jpeg;base64,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" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Himachal</h1>
+                        <p>Starting at Rs 30,000 Per Person</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holiday-item-card shadow p-3 mb-3">
+                        <img src="https://e0.pxfuel.com/wallpapers/467/155/desktop-wallpaper-rajasthan.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Rajasthan</h1>
+                        <p>Starting at Rs 25,000 Per Person</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holiday-item-card shadow p-3 mb-3">
+                        <img src="https://imgmedia.lbb.in/media/2023/06/648819d9156ecf24a1e15f7d_1686641113367.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Ladakh</h1>
+                        <p>Starting at Rs 50,000 Per Person</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="flight-section-bg-container d-flex justify-content-center flex-column" id="FlightBookingSection">
+        <div class="container mt-5">
+            <h1>Flight Booking</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="from">From</label>
+                        <input type="text" class="form-control" id="from" placeholder="Departure City">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="to">To</label>
+                        <input type="text" class="form-control" id="to" placeholder="Arrival City">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="departure-date">Departure Date</label>
+                        <input type="date" class="form-control" id="departure-date">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="return-date">Return Date</label>
+                        <input type="date" class="form-control" id="return-date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="passengers">Passengers</label>
+                    <select id="passengers" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Search Flights</button>
+            </form>
+        </div>
+    </div>
+    <div class="hotel-section-bg-container d-flex justify-content-center flex-column" id="HotelBookingSection">
+        <div class="container mt-5">
+            <h1>Hotel Booking</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="from">Destination</label>
+                        <input type="text" class="form-control" id="from" placeholder="Departure City">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="departure-date">Check-In</label>
+                        <input type="date" class="form-control" id="departure-date">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="return-date">Check-Out</label>
+                        <input type="date" class="form-control" id="return-date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="passengers">Guets</label>
+                    <select id="passengers" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>1 Adult</option>
+                        <option>2 Adult</option>
+                        <option>3 Adult</option>
+                        <option>4 Adult</option>
+                        <option>5 Adult</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Search Hotels</button>
+            </form>
+        </div>
+    </div>
+    <div class="holiday-package-section pt-5 pb-5 overflow-x flex-wrap" id="PackageCollectionSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="holiday-section-heading">Package Collection</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow holiday-item-card-2 p-3 mb-3">
+                        <img src="https://goaroundtheglobe.in/public/blog_images/1707713580.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Family Fun Packages</h1>
+                        <p>Discover tours and activities the whole family will enjoy.</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow holiday-item-card-2 p-3 mb-3">
+                        <img src="https://static.toiimg.com/photo/msid-80845685,width-96,height-65.cms" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Romantic Retreats</h1>
+                        <p>Unforgettable romantic getaways tailored for couples.</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow  holiday-item-card-2 p-3 mb-3">
+                        <img src="https://blog.weekendthrill.com/wp-content/uploads/2016/07/1-10.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Adventure Expeditions</h1>
+                        <p>Thrilling adventures for the avid explorer. From mountain climbing to jungle trekking.</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holiday-item-card-2 shadow p-3 mb-3">
+                        <img src="https://www.crowneplazasurfersparadise.com.au/wp-content/uploads/2020/08/wave-1246560_960_720.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Beach Paradise</h1>
+                        <p>Sun, sand, and surf await in our handpicked beachside retreats.</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holiday-item-card-2 shadow p-3 mb-3">
+                        <img src="https://www.columbian.com/wp-content/uploads/2015/08/Travel_Brief-Luxury_Cruise_.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Luxury Cruises </h1>
+                        <p> Sail in elegance exploring scenic coastlines and remote islands.</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow  holiday-item-card-2 p-3 mb-3">
+                        <img src="https://www.shutterstock.com/image-photo/young-couple-receiving-head-massage-260nw-794084224.jpg" class="holiday-item-image w-100" />
+                        <h1 class="holiday-card-title">Wellness and Spa</h1>
+                        <p>Rejuvenate with wellness retreats focusing on your health, fitness, and relaxation.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

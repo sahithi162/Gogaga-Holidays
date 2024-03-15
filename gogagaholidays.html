@@ -7,118 +7,119 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
-</head>
-<style>
+    <style>
     
-#navItem1 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
+    #navItem1 {
+        color: #323f4b;
+        font-family: "Roboto";
+    }
+    
+    #navItem2 {
+        color: #323f4b;
+        font-family: "Roboto";
+    }
+    
+    #navItem3 {
+        color: #323f4b;
+        font-family: "Roboto";
+    }
+    
+    #navItem4 {
+        color: #323f4b;
+        font-family: "Roboto";
+    }
+    
+    .banner-section-bg-container {
+        background-image: url("https://i.insider.com/64ee495b96b7920019c9dac5?width=1200&format=jpeg");
+        height: 100vh;
+        background-size: cover;
+    }
+    
+    .banner-heading {
+        color: black;
+        font-family: "Roboto";
+        font-size: 35px;
+        font-weight: 300;
+    }
+    
+    .banner-caption {
+        color: #f5f7fa;
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .custom-button {
+        color: white;
+        background-image: linear-gradient(#d0b200, #a58d00);
+        width: 130px;
+        height: 45px;
+        border-width: 0;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+    
+    .custom-outline-button {
+        color: #d0b200;
+        background-color: transparent;
+        width: 130px;
+        height: 45px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #d0b200;
+        border-radius: 8px;
+    }
+    
+    .holiday-section-heading {
+        color: #183b56;
+        font-family: "Roboto";
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    .holiday-item-image {
+        border-radius: 16px;
+        width: 80px;
+        height: 150px;
+    }
+    
+    .holiday-card-title {
+        color: #323f4b;
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 24px;
+    }
+    
+    .holiday-item-link {
+        color: #d0b200;
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .holiday-item-card {
+        border-radius: 16px;
+        width: 300px;
+        height: 300px;
+        overflow: auto;
+    }
+    
+    .form-control {
+        border-radius: 10px;
+        border-color: yellow;
+    
+    }
+    
+    .holiday-item-card-2 {
+        border-radius: 16px;
+        width: 300px;
+        height: 350px;
+        overflow: auto;
+    }
+    </style>
+</head>
 
-#navItem2 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-#navItem3 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-#navItem4 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-.banner-section-bg-container {
-    background-image: url("https://i.insider.com/64ee495b96b7920019c9dac5?width=1200&format=jpeg");
-    height: 100vh;
-    background-size: cover;
-}
-
-.banner-heading {
-    color: black;
-    font-family: "Roboto";
-    font-size: 35px;
-    font-weight: 300;
-}
-
-.banner-caption {
-    color: #f5f7fa;
-    font-family: "Roboto";
-    font-size: 24px;
-    font-weight: 300;
-}
-
-.custom-button {
-    color: white;
-    background-image: linear-gradient(#d0b200, #a58d00);
-    width: 130px;
-    height: 45px;
-    border-width: 0;
-    border-radius: 8px;
-    margin-right: 10px;
-}
-
-.custom-outline-button {
-    color: #d0b200;
-    background-color: transparent;
-    width: 130px;
-    height: 45px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #d0b200;
-    border-radius: 8px;
-}
-
-.holiday-section-heading {
-    color: #183b56;
-    font-family: "Roboto";
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.holiday-item-image {
-    border-radius: 16px;
-    width: 80px;
-    height: 150px;
-}
-
-.holiday-card-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 24px;
-}
-
-.holiday-item-link {
-    color: #d0b200;
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.holiday-item-card {
-    border-radius: 16px;
-    width: 300px;
-    height: 300px;
-    overflow: auto;
-}
-
-.form-control {
-    border-radius: 10px;
-    border-color: yellow;
-
-}
-
-.holiday-item-card-2 {
-    border-radius: 16px;
-    width: 300px;
-    height: 350px;
-    overflow: auto;
-}
-</style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
